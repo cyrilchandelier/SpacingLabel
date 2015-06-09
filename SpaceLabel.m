@@ -63,7 +63,7 @@
     
     // Configure drawing label
     self.drawingLabel.attributedText = self.attributedText;
-    self.drawingLabel.frame = CGRectMake(0, -ceil(self.firstLineFont.ascender - self.firstLineFont.capHeight), ceil(CGRectGetWidth(drawingRect)), ceil(CGRectGetHeight(drawingRect)));
+    self.drawingLabel.frame = CGRectMake(0, -ceil(self.firstLineFont.ascender - self.firstLineFont.capHeight), ceil(CGRectGetWidth(rect)), ceil(CGRectGetHeight(drawingRect)));
 }
 
 #pragma mark - Layout
@@ -98,7 +98,6 @@
     {
         _drawingLabel = [[UILabel alloc] init];
         _drawingLabel.numberOfLines = self.numberOfLines;
-        _drawingLabel.backgroundColor = [[UIColor orangeColor] colorWithAlphaComponent:0.5];
         [self addSubview:_drawingLabel];
     }
     
