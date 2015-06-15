@@ -1,17 +1,17 @@
 //
-//  SpaceLabel.m
+//  SpacingLabel.m
 //
 //  Created by Cyril Chandelier on 07/06/15.
 //  Copyright (c) 2015 Cyril Chandelier. All rights reserved.
 //
 
-#import "SpaceLabel.h"
+#import "SpacingLabel.h"
 
 #import <CoreText/CoreText.h>
 
 
 
-@interface SpaceLabel ()
+@interface SpacingLabel ()
 
 // Drawing
 @property (nonatomic, strong) UILabel *drawingLabel;
@@ -24,7 +24,7 @@
 
 
 
-@implementation SpaceLabel
+@implementation SpacingLabel
 
 #pragma mark - View lifecycle
 
