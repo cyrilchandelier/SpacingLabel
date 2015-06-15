@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tF3-0h-Wbj" customClass="SpacingLabel">
+                                <rect key="frame" x="20" y="284.5" width="560" height="29"/>
+                                <color key="backgroundColor" red="0.59215686270000001" green="0.83921568629999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5K-pd-4BQ" customClass="SpacingLabel">
+                                <rect key="frame" x="20" y="235.5" width="560" height="29"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.70588235290000001" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwy-wx-ivE" customClass="SpacingLabel">
+                                <rect key="frame" x="20" y="333.5" width="560" height="29"/>
+                                <color key="backgroundColor" red="1" green="0.52295046249999999" blue="0.069461169810000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tF3-0h-Wbj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="9Wn-QF-asr"/>
+                            <constraint firstItem="Rwy-wx-ivE" firstAttribute="top" secondItem="tF3-0h-Wbj" secondAttribute="bottom" constant="20" id="DOu-vg-8bm"/>
+                            <constraint firstAttribute="centerY" secondItem="tF3-0h-Wbj" secondAttribute="centerY" constant="0.5" id="Fvd-z2-sjr"/>
+                            <constraint firstItem="tF3-0h-Wbj" firstAttribute="top" secondItem="Q5K-pd-4BQ" secondAttribute="bottom" constant="20" id="PZv-2u-cFX"/>
+                            <constraint firstAttribute="trailing" secondItem="Q5K-pd-4BQ" secondAttribute="trailing" constant="20" id="fNJ-ug-Axc"/>
+                            <constraint firstItem="Rwy-wx-ivE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="ibj-25-z9S"/>
+                            <constraint firstAttribute="trailing" secondItem="Rwy-wx-ivE" secondAttribute="trailing" constant="20" id="mqB-WW-bkV"/>
+                            <constraint firstAttribute="trailing" secondItem="tF3-0h-Wbj" secondAttribute="trailing" constant="20" id="nTv-02-ppo"/>
+                            <constraint firstItem="Q5K-pd-4BQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="sN7-RI-n7r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLabel" destination="Rwy-wx-ivE" id="MPt-xO-e3N"/>
+                        <outlet property="middleLabel" destination="tF3-0h-Wbj" id="JVl-j6-Ywa"/>
+                        <outlet property="topLabel" destination="Q5K-pd-4BQ" id="fXV-5g-bIk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

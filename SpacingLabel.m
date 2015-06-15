@@ -38,7 +38,7 @@
 
 - (void)reset
 {
-    // Find the biggest font of both first and last line (could be the same)
+    // Find biggest font of both first and last line (could be the same)
     NSArray *lines = [self getLinesArrayOfStringInLabel];
     if ([lines count])
     {
@@ -56,14 +56,14 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    // Compute the size the text should take to be displayed correctly
+    [self invalidateIntrinsicContentSize];
+    
     CGRect drawingRect = [self.attributedText boundingRectWithSize:CGSizeMake(CGRectGetWidth(self.bounds), CGFLOAT_MAX)
-                                                           options:(NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading)
+                                                           options:(NSStringDrawingUsesLineFragmentOrigin)
                                                            context:nil];
     
-    // Configure drawing label
     self.drawingLabel.attributedText = self.attributedText;
-    self.drawingLabel.frame = CGRectMake(0, -ceil(self.firstLineFont.ascender - self.firstLineFont.capHeight), ceil(CGRectGetWidth(rect)), ceil(CGRectGetHeight(drawingRect)));
+    self.drawingLabel.frame = CGRectMake(0, -(self.firstLineFont.ascender - self.firstLineFont.capHeight), CGRectGetWidth(rect), ceil(CGRectGetHeight(drawingRect)));
 }
 
 #pragma mark - Layout
@@ -75,7 +75,7 @@
                                                     options:(NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading)
                                                     context:nil];
     
-    // Basically, the desired size is the default size, minus the space on top of the first line and the space under the last line
+    // Basically, the desired size is the default size minus space on top of the first line and space under the last line
     return CGSizeMake(size.width, ceil(rect.size.height) - (self.firstLineFont.ascender - self.firstLineFont.capHeight) + self.lastLineFont.descender);
 }
 
@@ -109,18 +109,6 @@
 - (void)setHighlighted:(BOOL)highlighted
 {
     // Oups, this don't support highligthed state
-}
-
-- (void)setFrame:(CGRect)frame
-{
-    [super setFrame:frame];
-    [self invalidateIntrinsicContentSize];
-}
-
-- (void)setBounds:(CGRect)bounds
-{
-    [super setBounds:bounds];
-    [self invalidateIntrinsicContentSize];
 }
 
 - (void)setText:(NSString *)text

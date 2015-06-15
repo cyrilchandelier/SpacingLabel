@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11967391B2F7A0F002B3CE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11967381B2F7A0F002B3CE9 /* main.m */; };
+		F119673C1B2F7A0F002B3CE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F119673B1B2F7A0F002B3CE9 /* AppDelegate.m */; };
+		F119673F1B2F7A0F002B3CE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F119673E1B2F7A0F002B3CE9 /* ViewController.m */; };
+		F11967421B2F7A0F002B3CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11967401B2F7A0F002B3CE9 /* Main.storyboard */; };
+		F11967441B2F7A0F002B3CE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11967431B2F7A0F002B3CE9 /* Images.xcassets */; };
+		F11967471B2F7A0F002B3CE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11967451B2F7A0F002B3CE9 /* LaunchScreen.xib */; };
+		F11967531B2F7A0F002B3CE9 /* SpacingLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F11967521B2F7A0F002B3CE9 /* SpacingLabelDemoTests.m */; };
+		F119675F1B2F7A37002B3CE9 /* SpacingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F119675E1B2F7A37002B3CE9 /* SpacingLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F119674D1B2F7A0F002B3CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F119672B1B2F7A0F002B3CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11967321B2F7A0F002B3CE9;
+			remoteInfo = SpacingLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F11967331B2F7A0F002B3CE9 /* SpacingLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacingLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11967371B2F7A0F002B3CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11967381B2F7A0F002B3CE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F119673A1B2F7A0F002B3CE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F119673B1B2F7A0F002B3CE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F119673D1B2F7A0F002B3CE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F119673E1B2F7A0F002B3CE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F11967411B2F7A0F002B3CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F11967431B2F7A0F002B3CE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F11967461B2F7A0F002B3CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F119674C1B2F7A0F002B3CE9 /* SpacingLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacingLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11967511B2F7A0F002B3CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11967521B2F7A0F002B3CE9 /* SpacingLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpacingLabelDemoTests.m; sourceTree = "<group>"; };
+		F119675D1B2F7A37002B3CE9 /* SpacingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpacingLabel.h; path = ../SpacingLabel.h; sourceTree = "<group>"; };
+		F119675E1B2F7A37002B3CE9 /* SpacingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpacingLabel.m; path = ../SpacingLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11967301B2F7A0F002B3CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11967491B2F7A0F002B3CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F119672A1B2F7A0F002B3CE9 = {
+			isa = PBXGroup;
+			children = (
+				F119675C1B2F7A2B002B3CE9 /* SpacingLabel */,
+				F11967351B2F7A0F002B3CE9 /* SpacingLabelDemo */,
+				F119674F1B2F7A0F002B3CE9 /* SpacingLabelDemoTests */,
+				F11967341B2F7A0F002B3CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11967341B2F7A0F002B3CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11967331B2F7A0F002B3CE9 /* SpacingLabelDemo.app */,
+				F119674C1B2F7A0F002B3CE9 /* SpacingLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11967351B2F7A0F002B3CE9 /* SpacingLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F119673A1B2F7A0F002B3CE9 /* AppDelegate.h */,
+				F119673B1B2F7A0F002B3CE9 /* AppDelegate.m */,
+				F119673D1B2F7A0F002B3CE9 /* ViewController.h */,
+				F119673E1B2F7A0F002B3CE9 /* ViewController.m */,
+				F11967401B2F7A0F002B3CE9 /* Main.storyboard */,
+				F11967431B2F7A0F002B3CE9 /* Images.xcassets */,
+				F11967451B2F7A0F002B3CE9 /* LaunchScreen.xib */,
+				F11967361B2F7A0F002B3CE9 /* Supporting Files */,
+			);
+			path = SpacingLabelDemo;
+			sourceTree = "<group>";
+		};
+		F11967361B2F7A0F002B3CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F11967371B2F7A0F002B3CE9 /* Info.plist */,
+				F11967381B2F7A0F002B3CE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F119674F1B2F7A0F002B3CE9 /* SpacingLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F11967521B2F7A0F002B3CE9 /* SpacingLabelDemoTests.m */,
+				F11967501B2F7A0F002B3CE9 /* Supporting Files */,
+			);
+			path = SpacingLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		F11967501B2F7A0F002B3CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F11967511B2F7A0F002B3CE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F119675C1B2F7A2B002B3CE9 /* SpacingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F119675D1B2F7A37002B3CE9 /* SpacingLabel.h */,
+				F119675E1B2F7A37002B3CE9 /* SpacingLabel.m */,
+			);
+			name = SpacingLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11967321B2F7A0F002B3CE9 /* SpacingLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11967561B2F7A0F002B3CE9 /* Build configuration list for PBXNativeTarget "SpacingLabelDemo" */;
+			buildPhases = (
+				F119672F1B2F7A0F002B3CE9 /* Sources */,
+				F11967301B2F7A0F002B3CE9 /* Frameworks */,
+				F11967311B2F7A0F002B3CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpacingLabelDemo;
+			productName = SpacingLabelDemo;
+			productReference = F11967331B2F7A0F002B3CE9 /* SpacingLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F119674B1B2F7A0F002B3CE9 /* SpacingLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11967591B2F7A0F002B3CE9 /* Build configuration list for PBXNativeTarget "SpacingLabelDemoTests" */;
+			buildPhases = (
+				F11967481B2F7A0F002B3CE9 /* Sources */,
+				F11967491B2F7A0F002B3CE9 /* Frameworks */,
+				F119674A1B2F7A0F002B3CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F119674E1B2F7A0F002B3CE9 /* PBXTargetDependency */,
+			);
+			name = SpacingLabelDemoTests;
+			productName = SpacingLabelDemoTests;
+			productReference = F119674C1B2F7A0F002B3CE9 /* SpacingLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F119672B1B2F7A0F002B3CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Cyril Chandelier";
+				TargetAttributes = {
+					F11967321B2F7A0F002B3CE9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F119674B1B2F7A0F002B3CE9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F11967321B2F7A0F002B3CE9;
+					};
+				};
+			};
+			buildConfigurationList = F119672E1B2F7A0F002B3CE9 /* Build configuration list for PBXProject "SpacingLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F119672A1B2F7A0F002B3CE9;
+			productRefGroup = F11967341B2F7A0F002B3CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11967321B2F7A0F002B3CE9 /* SpacingLabelDemo */,
+				F119674B1B2F7A0F002B3CE9 /* SpacingLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11967311B2F7A0F002B3CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11967421B2F7A0F002B3CE9 /* Main.storyboard in Resources */,
+				F11967471B2F7A0F002B3CE9 /* LaunchScreen.xib in Resources */,
+				F11967441B2F7A0F002B3CE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119674A1B2F7A0F002B3CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F119672F1B2F7A0F002B3CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F119673F1B2F7A0F002B3CE9 /* ViewController.m in Sources */,
+				F119673C1B2F7A0F002B3CE9 /* AppDelegate.m in Sources */,
+				F119675F1B2F7A37002B3CE9 /* SpacingLabel.m in Sources */,
+				F11967391B2F7A0F002B3CE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11967481B2F7A0F002B3CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11967531B2F7A0F002B3CE9 /* SpacingLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F119674E1B2F7A0F002B3CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F11967321B2F7A0F002B3CE9 /* SpacingLabelDemo */;
+			targetProxy = F119674D1B2F7A0F002B3CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F11967401B2F7A0F002B3CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11967411B2F7A0F002B3CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F11967451B2F7A0F002B3CE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11967461B2F7A0F002B3CE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F11967541B2F7A0F002B3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F11967551B2F7A0F002B3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11967571B2F7A0F002B3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpacingLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F11967581B2F7A0F002B3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpacingLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F119675A1B2F7A0F002B3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpacingLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpacingLabelDemo.app/SpacingLabelDemo";
+			};
+			name = Debug;
+		};
+		F119675B1B2F7A0F002B3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpacingLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpacingLabelDemo.app/SpacingLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F119672E1B2F7A0F002B3CE9 /* Build configuration list for PBXProject "SpacingLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11967541B2F7A0F002B3CE9 /* Debug */,
+				F11967551B2F7A0F002B3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11967561B2F7A0F002B3CE9 /* Build configuration list for PBXNativeTarget "SpacingLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11967571B2F7A0F002B3CE9 /* Debug */,
+				F11967581B2F7A0F002B3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11967591B2F7A0F002B3CE9 /* Build configuration list for PBXNativeTarget "SpacingLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F119675A1B2F7A0F002B3CE9 /* Debug */,
+				F119675B1B2F7A0F002B3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F119672B1B2F7A0F002B3CE9 /* Project object */;
+}
